@@ -27,7 +27,7 @@ export default function FeatureGrid() {
           {/* Card 1 - Geología, Image Background */}
           <div className="relative rounded-lg overflow-hidden min-h-[340px] group cursor-pointer">
             <img
-              src="https://storage.readdy-site.link/project_files/5558daa9-7059-43a3-8453-c00007595499/f3a57ad2-7836-41db-bfbe-40a1a58b1b35_compressed_Untitled-Project-2.webp"
+              src={`${__BASE_PATH__}images/feature-muestra-mineral.webp`}
               alt="Muestra mineral de geología de exploración"
               className="absolute inset-0 w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
             />
@@ -50,7 +50,7 @@ export default function FeatureGrid() {
           {/* Card 2 - Image Background */}
           <div className="relative rounded-lg overflow-hidden min-h-[340px] group cursor-pointer">
             <img
-              src="https://storage.readdy-site.link/project_files/5558daa9-7059-43a3-8453-c00007595499/1843cafc-6c57-4c1c-bec4-731fa569f82d_compressed_AI-Image-Editor-2026-06-24_23-17-04.webp"
+              src={`${__BASE_PATH__}images/feature-terreno-desertico.webp`}
               alt="Terreno de exploración minera en montaña desértica"
               className="absolute inset-0 w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
             />

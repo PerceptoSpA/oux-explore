@@ -18,7 +18,7 @@ export default function HeroSection() {
           preload="auto"
           className="absolute inset-0 w-full h-full object-cover"
           style={{ imageRendering: 'auto' }}
-          src="https://storage.readdy-site.link/project_files/5558daa9-7059-43a3-8453-c00007595499/7472f9fb-6a04-4075-9beb-786c67afb8f6_hero-final.mp4"
+          src={`${__BASE_PATH__}videos/hero.mp4`}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
       </div>

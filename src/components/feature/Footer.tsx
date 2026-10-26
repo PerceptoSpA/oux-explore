@@ -20,7 +20,7 @@ export default function Footer() {
         {/* Left - Brand */}
         <div className="lg:w-1/2">
           <img
-            src="https://storage.readdy-site.link/project_files/5558daa9-7059-43a3-8453-c00007595499/77f62dfe-e0ba-4d96-87e4-d06556fbeb22_compressed_Group-1194.webp"
+            src={`${__BASE_PATH__}images/logo-ouxplore-footer.webp`}
             alt="OUX-Plore RESOURCES"
             className="h-14 w-auto rounded-sm"
           />

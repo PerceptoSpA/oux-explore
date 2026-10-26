@@ -32,21 +32,21 @@ export default function CTASection() {
       <div className="mt-16 w-full flex items-center gap-0">
         <div className="flex-1 h-56 md:h-72 overflow-hidden">
           <img
-            src="https://static.readdy.ai/image/d41906ec80d03cc0ed010806e730a167/7845757b0b7a749f62fed581b32fc11f.jpeg"
+            src={`${__BASE_PATH__}images/cta-camino-exploracion.jpeg`}
             alt="Camino de exploración en terreno montañoso"
             className="w-full h-full object-cover object-top"
           />
         </div>
         <div className="flex-1 h-56 md:h-72 overflow-hidden">
           <img
-            src="https://static.readdy.ai/image/d41906ec80d03cc0ed010806e730a167/529470d1856a02ae665835b8da47367c.jpeg"
+            src={`${__BASE_PATH__}images/cta-geologos-muestras.jpeg`}
             alt="Geólogos examinando muestras de perforación"
             className="w-full h-full object-cover object-top"
           />
         </div>
         <div className="flex-1 h-56 md:h-72 overflow-hidden">
           <img
-            src="https://static.readdy.ai/image/d41906ec80d03cc0ed010806e730a167/04598289106985efe839a9da6b3ca09e.jpeg"
+            src={`${__BASE_PATH__}images/cta-campamento-aereo.jpeg`}
             alt="Vista aérea de campamento de exploración"
             className="w-full h-full object-cover object-top"
           />

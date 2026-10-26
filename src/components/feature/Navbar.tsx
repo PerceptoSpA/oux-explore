@@ -50,7 +50,7 @@ export default function Navbar({ links }: NavbarProps) {
           >
             <div className="flex items-center">
               <img
-                src="https://storage.helloreaddy.io/project_files/5558daa9-7059-43a3-8453-c00007595499/4f3598d8-62e7-4187-9859-c82f8d932bbf_compressed_Ouxplore-logo-5-x-5-cm.webp"
+                src={`${__BASE_PATH__}images/logo-ouxplore.webp`}
                 alt="OUX-Plore RESOURCES"
                 className="h-14 md:h-[70px] w-auto object-contain"
               />

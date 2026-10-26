@@ -9,7 +9,7 @@ export default function AboutSection() {
       {/* Full-width Video */}
       <div className="w-full relative h-[420px] md:h-[600px] overflow-hidden">
         <video
-          src="https://storage.readdy-site.link/project_files/5558daa9-7059-43a3-8453-c00007595499/938dc851-8dec-4f41-a3c4-0877c790f170_Proyecto-de-vdeo-23.mp4"
+          src={`${__BASE_PATH__}videos/nosotros.mp4`}
           className="absolute inset-0 w-full h-full object-cover"
           autoPlay
           loop
@@ -59,7 +59,7 @@ export default function AboutSection() {
         {/* Team Image - Full width */}
         <div className="mt-10 w-full h-[320px] md:h-[480px] rounded-lg overflow-hidden">
           <img
-            src="https://static.readdy.ai/image/d41906ec80d03cc0ed010806e730a167/67a04334da3cff54811658f2ee690c5d.jpeg"
+            src={`${__BASE_PATH__}images/equipo-geologos.jpeg`}
             alt="Equipo de geólogos Oux Explore"
             className="w-full h-full object-cover object-top"
           />

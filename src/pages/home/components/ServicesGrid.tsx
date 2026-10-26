@@ -19,7 +19,7 @@ const serviceIcons = [
 
 const serviceImages = [
   {
-    url: 'https://static.readdy.ai/image/d41906ec80d03cc0ed010806e730a167/29a9187d4e07504a098cff946a7332ad.jpeg',
+    url: `${__BASE_PATH__}images/servicio-exploracion.jpeg`,
     altES: 'Exploración geológica en terreno',
     altEN: 'Geological exploration in the field',
   },
@@ -29,12 +29,12 @@ const serviceImages = [
     altEN: 'Geophysics equipment with drone',
   },
   {
-    url: 'https://static.readdy.ai/image/d41906ec80d03cc0ed010806e730a167/c17015165bf3457ca9eaf6d395d5acc2.jpeg',
+    url: `${__BASE_PATH__}images/servicio-sondajes.jpeg`,
     altES: 'Testigos de sondaje en cajas',
     altEN: 'Drill core samples in boxes',
   },
   {
-    url: 'https://static.readdy.ai/image/d41906ec80d03cc0ed010806e730a167/c83e2f9e7c4dc90cd75866ffb5e57682.jpeg',
+    url: `${__BASE_PATH__}images/servicio-digitalizacion.jpeg`,
     altES: 'Análisis mineralógico en laboratorio',
     altEN: 'Mineralogical analysis in laboratory',
   },
