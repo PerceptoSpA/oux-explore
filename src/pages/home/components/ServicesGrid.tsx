@@ -24,7 +24,7 @@ const serviceImages = [
     altEN: 'Geological exploration in the field',
   },
   {
-    url: 'https://readdy.ai/api/search-image?query=Geophysical%20survey%20equipment%20with%20magnetometer%20and%20drone%20on%20clean%20light%20neutral%20background%2C%20flat%20lay%20product%20photography%20style%2C%20warm%20neutral%20tones%2C%20soft%20natural%20lighting%2C%20minimalist%20composition%2C%20professional%20editorial%20aesthetic%2C%203D%20subsurface%20model%20visualization%20as%20subtle%20background%20element&width=800&height=560&seq=service-geofisica-v2&orientation=landscape',
+    url: `${__BASE_PATH__}images/provisional/geofisica.svg`,
     altES: 'Equipo de geofísica con drone',
     altEN: 'Geophysics equipment with drone',
   },
@@ -39,12 +39,12 @@ const serviceImages = [
     altEN: 'Mineralogical analysis in laboratory',
   },
   {
-    url: 'https://readdy.ai/api/search-image?query=Executive%20boardroom%20with%20mining%20project%20documents%20and%20financial%20charts%20on%20clean%20light%20neutral%20background%2C%20flat%20lay%20product%20photography%20style%2C%20warm%20professional%20tones%2C%20soft%20natural%20lighting%2C%20minimalist%20composition%2C%20editorial%20aesthetic%2C%20mine%20site%20aerial%20photo%20as%20subtle%20background%20element&width=800&height=560&seq=service-desarrollo-v2&orientation=landscape',
+    url: `${__BASE_PATH__}images/provisional/desarrollo-proyectos.svg`,
     altES: 'Documentación de due diligence minero',
     altEN: 'Mining due diligence documentation',
   },
   {
-    url: 'https://readdy.ai/api/search-image?query=Stock%20market%20trading%20data%20screens%20with%20mining%20sector%20charts%20on%20clean%20light%20neutral%20background%2C%20flat%20lay%20product%20photography%20style%2C%20warm%20professional%20tones%2C%20soft%20natural%20lighting%2C%20minimalist%20composition%2C%20editorial%20aesthetic%2C%20gold%20nuggets%20as%20subtle%20decorative%20element&width=800&height=560&seq=service-capital-v2&orientation=landscape',
+    url: `${__BASE_PATH__}images/provisional/mercado-capitales.svg`,
     altES: 'Mercados de capital minero',
     altEN: 'Mining capital markets',
   },

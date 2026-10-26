@@ -73,7 +73,7 @@ export default function FeatureGrid() {
           {/* Card 3 - Image Background */}
           <div className="relative rounded-lg overflow-hidden min-h-[340px] group cursor-pointer">
             <img
-              src="https://readdy.ai/api/search-image?query=Mineral%20core%20samples%20neatly%20arranged%20in%20wooden%20trays%20inside%20a%20geological%20laboratory%2C%20soft%20overhead%20lighting%2C%20warm%20neutral%20earth%20tones%2C%20detailed%20rock%20textures%20visible%2C%20scientific%20documentation%20style%2C%20clean%20minimalist%20composition%20with%20professional%20laboratory%20background&width=600&height=400&seq=feature-scan-bg-02&orientation=landscape"
+              src={`${__BASE_PATH__}images/provisional/escaneo-muestras.svg`}
               alt="Escaneo de núcleos de muestras minerales"
               className="absolute inset-0 w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
             />
