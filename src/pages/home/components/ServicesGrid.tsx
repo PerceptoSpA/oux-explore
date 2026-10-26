@@ -29,12 +29,12 @@ const serviceImages = [
     altEN: 'Geophysics equipment with drone',
   },
   {
-    url: `${__BASE_PATH__}images/servicio-sondajes.jpeg`,
+    url: `${__BASE_PATH__}images/servicio-sondajes.webp`,
     altES: 'Testigos de sondaje en cajas',
     altEN: 'Drill core samples in boxes',
   },
   {
-    url: `${__BASE_PATH__}images/servicio-digitalizacion.jpeg`,
+    url: `${__BASE_PATH__}images/servicio-digitalizacion.webp`,
     altES: 'Análisis mineralógico en laboratorio',
     altEN: 'Mineralogical analysis in laboratory',
   },

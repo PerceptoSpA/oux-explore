@@ -39,14 +39,14 @@ export default function CTASection() {
         </div>
         <div className="flex-1 h-56 md:h-72 overflow-hidden">
           <img
-            src={`${__BASE_PATH__}images/cta-geologos-muestras.jpeg`}
+            src={`${__BASE_PATH__}images/cta-geologos-muestras.webp`}
             alt="Geólogos examinando muestras de perforación"
             className="w-full h-full object-cover object-top"
           />
         </div>
         <div className="flex-1 h-56 md:h-72 overflow-hidden">
           <img
-            src={`${__BASE_PATH__}images/cta-campamento-aereo.jpeg`}
+            src={`${__BASE_PATH__}images/cta-campamento-aereo.webp`}
             alt="Vista aérea de campamento de exploración"
             className="w-full h-full object-cover object-top"
           />

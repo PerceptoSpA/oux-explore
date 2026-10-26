@@ -59,7 +59,7 @@ export default function AboutSection() {
         {/* Team Image - Full width */}
         <div className="mt-10 w-full h-[320px] md:h-[480px] rounded-lg overflow-hidden">
           <img
-            src={`${__BASE_PATH__}images/equipo-geologos.jpeg`}
+            src={`${__BASE_PATH__}images/equipo-geologos.webp`}
             alt="Equipo de geólogos Oux Explore"
             className="w-full h-full object-cover object-top"
           />
